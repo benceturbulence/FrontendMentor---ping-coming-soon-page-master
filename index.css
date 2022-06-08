@@ -26,7 +26,6 @@ body {
     width: 85%;
     text-align: center;
     margin: 0 auto;
-    border: 1px solid black;
     padding: 1rem;
     min-height: 100vh;
     max-width: 500px;
@@ -45,9 +44,11 @@ h1 .accent {
 
 h2 {
     
-    font-size: .7rem;
+    font-size: 1.3rem;
     margin-top: 1rem;
     margin-bottom: 1.6rem;
+    color: var(--very-dark-blue);
+    font-weight: 300;
 }
 
 .input_container {
@@ -137,6 +138,10 @@ button {
 
 
 @media (min-width: 550px){
+
+    .icon_top {
+        max-width: 300px ;
+    }
     .wrapper {
         max-width: 1000px
     }
@@ -161,13 +166,14 @@ button {
     }
 
 
-
-
-
     input, button {
         display: block;
     
         margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 3rem;
     }
 
 
