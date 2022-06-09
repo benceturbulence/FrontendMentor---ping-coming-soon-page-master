@@ -152,7 +152,7 @@ button {
     }
 
     .interncont {
-        width: 60%
+        width: 63%
     }
 
     .email-input {
@@ -168,7 +168,7 @@ button {
 
     input, button {
         display: block;
-    
+        padding: 1.2rem;
         margin-bottom: 0;
     }
 
